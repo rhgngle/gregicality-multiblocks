@@ -16,7 +16,6 @@ import gregtech.loaders.recipe.MetaTileEntityLoader;
 import net.minecraftforge.fml.common.Loader;
 import org.apache.commons.lang3.ArrayUtils;
 
-import static gregicality.multiblocks.api.unification.GCYMMaterials.*;
 import static gregtech.api.GTValues.*;
 import static gregtech.api.unification.material.Materials.*;
 import static gregtech.api.unification.ore.OrePrefix.*;

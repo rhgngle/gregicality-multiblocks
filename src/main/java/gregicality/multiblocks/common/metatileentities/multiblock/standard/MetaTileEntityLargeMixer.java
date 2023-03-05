@@ -2,7 +2,6 @@ package gregicality.multiblocks.common.metatileentities.multiblock.standard;
 
 import gregicality.multiblocks.api.metatileentity.GCYMRecipeMapMultiblockController;
 import gregicality.multiblocks.api.render.GCYMTextures;
-import gregicality.multiblocks.api.unification.GCYMMaterials;
 import gregicality.multiblocks.common.block.GCYMMetaBlocks;
 import gregicality.multiblocks.common.block.blocks.BlockLargeMultiblockCasing;
 import gregtech.api.metatileentity.MetaTileEntity;
@@ -11,6 +10,7 @@ import gregtech.api.metatileentity.multiblock.IMultiblockPart;
 import gregtech.api.pattern.BlockPattern;
 import gregtech.api.pattern.FactoryBlockPattern;
 import gregtech.api.recipes.RecipeMaps;
+import gregtech.api.unification.material.Materials;
 import gregtech.client.renderer.ICubeRenderer;
 import gregtech.client.renderer.texture.cube.OrientedOverlayRenderer;
 import gregtech.common.blocks.BlockBoilerCasing;
@@ -69,7 +69,7 @@ public class MetaTileEntityLargeMixer extends GCYMRecipeMapMultiblockController 
     }
 
     private IBlockState getFrameState() {
-        return MetaBlocks.FRAMES.get(GCYMMaterials.HastelloyX).getBlock(GCYMMaterials.HastelloyX);
+        return MetaBlocks.FRAMES.get(Materials.HastelloyX).getBlock(Materials.HastelloyX);
     }
 
     @Override
